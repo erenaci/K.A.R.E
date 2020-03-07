@@ -6,10 +6,9 @@ body, html{
  }
 
 
-header 
- { 
+header { 
     height: 250px; 
-    width: 100%;
+    width: 100%; 
 }
 
 hr{
