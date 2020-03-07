@@ -1,13 +1,12 @@
 *
 body, html{ 
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     background-color: #F8E9A5;
  }
 
 
-header 
- { 
+header { 
     height: 250px; 
     width: 100%; 
 }
@@ -222,12 +221,55 @@ button{
     .top-form .inner-form{
         width:100%;
         margin: 5px 0; 
-    }
-    
-   
+    } 
 }
 
 
+/* Image gets bigger when hovered over */
+img {
+    transition:transform 0.1s ease;
+}
+    
+img:hover {
+    -webkit-transform:scale(1.18);
+    transform:scale(1.18);
+}
 
 
+/* social media icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa:visited {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
