@@ -1,13 +1,12 @@
 *
 body, html{ 
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     background-color: #F8E9A5;
  }
 
 
-header 
- { 
+header { 
     height: 250px; 
     width: 100%; 
 }
@@ -62,3 +61,144 @@ hr{
     /*z-index: 0;*/
     
 }
+
+h1 {
+     color: #000;
+    font-family: "Courier New", Courier, monospace; 
+    font-weight: normal;
+    margin: 0px 0px; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+h2{
+    color: #777;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: "Kalam";
+    margin: 0px 0px; 
+    font-size: 15px; 
+    text-align: center; 
+    font-style: oblique;
+}
+
+footer{
+    text-align: center;
+    background: #F8E9A5;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #000;
+    height: 40px;
+    vertical-align:middle;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif; 
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: middle;
+}
+
+h3 {
+    font-family: "system-ui";
+    text-align: center;
+    color: #000; 
+    letter-spacing: 5px;
+}
+
+.business {
+    font-family: "system-ui";
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.column {
+    flex: 25%;
+    flex-wrap: wrap;
+    max-width: 25%;
+    padding: 8px;
+    justify-content: center;
+    padding-bottom: 125px;
+}
+
+.column img {
+    vertical-align: middle;
+    margin-top: 14px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.img-wrap {
+    position: relative;   
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+}
+
+.img-wrap:hover > img {
+    webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.img-wrap:hover > .overlay {
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    font-family: "system-ui";
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;    
+    left: 50%;               
+    top: 50%;                        
+    transform: translate(-50%,-50%);
+}
+
+/* Responsive layout */
+@media (max-width: 1000px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Responsive layout */
+@media (max-width: 1000px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
