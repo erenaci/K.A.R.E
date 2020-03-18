@@ -47,24 +47,14 @@
     </script>
     
 	<style type ="text/css">
-        hr.new1 {
-            border-top: 1px solid red;
-            width: 70%;
-        }
-
-        body {
-            text-align: center;
-            font-size: 15px;  
-            text-decoration: none;
-            margin: 0px; 
-            padding: 0px;
-        }
         
         #panel, #flip {
             padding: 5px;
             text-align: center;
             background-color: #FFEFD5;
             background-size: 60%;
+            border-radius: 10px;
+            cursor: pointer;
         }
         #panel {
             padding: 8px;
@@ -76,6 +66,8 @@
             text-align: center;
             background-color: #FFEFD5;
             background-size: 60%;
+            border-radius: 10px;
+            cursor: pointer;
         }
         #panel2 {
             padding: 8px;
@@ -87,6 +79,8 @@
             text-align: center;
             background-color: #FFEFD5;
             background-size: 60%;
+            border-radius: 10px;
+            cursor: pointer;
         }
         #panel3 {
             padding: 8px;
@@ -98,6 +92,8 @@
             text-align: center;
             background-color: #FFEFD5;
             background-size: 60%;
+            border-radius: 10px;
+            cursor: pointer;
         }
         #panel4 {
             padding: 8px;
@@ -109,6 +105,8 @@
             text-align: center;
             background-color: #FFEFD5;
             background-size: 60%;
+            border-radius: 10px;
+            cursor: pointer;
         }
         #panel5 {
             padding: 8px;
@@ -116,13 +114,10 @@
             background-color: #F8E9A5;
         }
         
-        .container{ 
-            width: 100%; 
-            max-width: 700px;
-            margin: 0  auto;
-            padding: 20px;
-            box-sizing: border-box; 
-
+        .video{
+            position:relative;
+            align-content: center;
+            width:75%; 
         }
         
 	</style>
@@ -131,85 +126,79 @@
 <body>
    
 	<header>
-    
+
         <div class = "title"> 
         <h1 id = "top"> K.A.R.E  Jewelry</h1>
         <h2> Fashion and style made ethical and sustainable, for beauty beautiful inside and out. <br> Because we kare. </h2>
         </div>
-        
+
         <hr> 
        
 		<ul class = "menu">	
 			<li><a href = "index.html"> HOME </a> </li>
 			<li><a href = "shop.html"> SHOP</a> </li>
-			<li><a href = "contact.html"> CONTACT </a> </li>
             <li><a href = "media.html"> GALLERY </a> </li>
             <li><a href = "about.html"> ABOUT </a> </li>
             <li><a href = "faq.html"> FAQ </a> </li> 
+            <li><a href = "contact.html"> CONTACT </a> </li>
             
         </ul>
         
-	</header>	
+	</header>
     
-    <footer>
-        <p> COPYRIGHT &copy; 2020 K.A.R.E Jewelry</p>
-    </footer> 
     
 <div class = "container"> 
     <div class = "content"> 
         <h3>Frequently Asked Questions</h3>
         <p> Please email info@kare.com if you have any further questions or concerns. We are happy to help!</p>
         
-        <!-- <hr class="new1"> -->
-        
-    </div>
-   
-    <div class = "content">
+
         <h3 id="flip">When will I receive my order?</h3>
         <p id="panel">
-            Your order will be shipped within one business day of your purchase date. <br/>
-            You will receive your order in 3 to 4 business days. <br/>
+            If you choose pickup, you can pick your order up in 3 business days. <br/>
+            If you choose delivery, you will receive your order in 4 to 5 business days. <br/>
             You will receive an email confirmation with shipping information and an estimated delivery date. 
         </p>    
-    </div>
+
     
-    <div class = "content">
+
         <h3 id="flip2">What is your return policy?</h3>
         <p id="panel2">
             Returns made within 30 days of purchase will be refunded to the original form of payment. <br/>
             Returns made after 30 days of purchase will be refunded via merchandise credit. 
         </p>    
-    </div>
+
     
-    <div class = "content">
+
         <h3 id="flip3">What payment methods do you accept?</h3>
         <p id="panel3">
             K.A.R.E accepts the following forms of payment: <br/>
             Visa, MasterCard, American Express, Discover, PayPal, AfterPay, Apple Pay, K.A.R.E Gift Cards and Store Merchandise.
         </p>    
-    </div>
+
     
-    <div class = "content">
+
         <h3 id="flip4">Can I change my order?</h3>
         <p id="panel4">
-            <em>Mass production is out, and sustainability is in. <br/></em>
             We start working on your order as soon as we get it, so we are unable to make any changes or modifications to an order after it has been placed and confirmed.
         </p>    
-    </div>
+
     
-    <div class = "content">
+
         <h3 id="flip5">I do not know much about sustainable jewelry.<br/>Why is K.A.R.E Jewelry special?<br/></h3>
         <p id="panel5">
             <strong>Mass production is out, and sustainability is in. <br/></strong>
-            K.A.R.E is dedicated to curating collections that not only exude sophistication, but harbor a small environmental footprint.
-            With sustainability at the epicenter of each collection, at K.A.R.E, we proudly crafts each of our pieces from recycled 18K gold and ethically sourced gemstones and diamonds. Production is executed in New York through transparent manufacturers, and the results are superbly elevated.
+            Here are K.A.R.E, we are dedicated to curating collections that not only exude sophistication, but harbor a small environmental footprint.
+            With sustainability at the epicenter of each collection, at K.A.R.E, we proudly craft all of our jewelry pieces from recycled gold, silver, and ethically sourced gemstones and diamonds. Production is executed through transparent manufacturers, and the results are superbly elevated.
         </p>    
-    </div>
+            <br/>  
+        
+
+            <video class = "video" src="jewelryvideo.mp4" autoplay="1" loop="" playsinline="1" preload="metadata" muted="1" height="auto" align="right"></video>
+           
     
-    <br/>
     </div>
-            <video src="jewelryvideo.mp4" autoplay="1" loop="" playsinline="1" preload="metadata" muted="1" width="500" height="auto" align="right"></video>
-    
+</div>
     
     <div class = "content">
         <h3> Stay in touch with us!</h3>
@@ -224,7 +213,11 @@
         <a href="#top">Back to Top</a><br>
         &nbsp;<br>
         &nbsp;<br>
-    </p>  
+    </p>
+    
+    <footer>
+        <p> COPYRIGHT &copy; 2020 K.A.R.E Jewelry</p>
+    </footer> 
     
     </body>
 </html>
