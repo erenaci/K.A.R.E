@@ -210,7 +210,7 @@ button{
 
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     .title{
         width:400px; 
     }
@@ -225,15 +225,6 @@ button{
 }
 
 
-/* Image gets bigger when hovered over */
-img {
-    transition:transform 0.1s ease;
-}
-    
-img:hover {
-    -webkit-transform:scale(1.18);
-    transform:scale(1.18);
-}
 
 
 /* social media icons */
@@ -260,7 +251,7 @@ img:hover {
 }
 
 .fa-instagram {
-    background: #125688;
+    background: #FF1493;
     color: white;
 }
 

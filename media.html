@@ -7,7 +7,7 @@
     <meta name = "description" content = "K.A.R.E Jewelry"> 
     <meta name = "author" content = "KARE"> 
     <title>K.A.R.E Jewelry</title>
-    <link rel ='stylesheet' href ='stylesheet.css'>
+    <link rel ='stylesheet' href ='StyleSheet.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style type ="text/css">
         
@@ -47,6 +47,16 @@
             }
         }
         
+        /*Image gets bigger when hovered over*/ 
+        img {
+            transition:transform 0.1s ease;
+        }
+
+        img:hover {
+            -webkit-transform:scale(1.18);
+            transform:scale(1.18);
+        }
+        
 	</style>
 </head>
 
@@ -64,10 +74,10 @@
 		<ul class = "menu">	
 			<li><a href = "index.html"> HOME </a> </li>
 			<li><a href = "shop.html"> SHOP</a> </li>
-			<li><a href = "contact.html"> CONTACT </a> </li>
             <li><a href = "media.html"> GALLERY </a> </li>
             <li><a href = "about.html"> ABOUT </a> </li>
             <li><a href = "faq.html"> FAQ </a> </li> 
+            <li><a href = "contact.html"> CONTACT </a> </li>
             
         </ul>
         
@@ -76,7 +86,7 @@
   
 <div class = "container">    
     <div class = "content">
-        <h3>Welcome to our gallery.</h3>
+        <h3>Welcome to Our Gallery.</h3>
         <p> Every piece of jewelry has a story. We want to hear yours. </p>
     </div>
 </div>
